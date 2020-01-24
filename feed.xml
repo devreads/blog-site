@@ -3,12 +3,32 @@
     <title>Dev Reads</title>
     <link href="https://devreads.xyz/feed.xml" rel="self" />
     <link href="https://devreads.xyz" />
-    <updated>2020-01-24T15:04:01+05:30</updated>
+    <updated>2020-01-24T15:23:36+05:30</updated>
     <author>
         <name>DevReads Team</name>
     </author>
     <id>https://devreads.xyz</id>
 
+    <entry>
+        <title>test post</title>
+        <author>
+            <name>DevReads Team</name>
+        </author>
+        <link href="https://devreads.xyz/test-post/"/>
+        <id>https://devreads.xyz/test-post/</id>
+
+        <updated>2020-01-24T15:23:27+05:30</updated>
+            <summary>
+                <![CDATA[
+                    test
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                test
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Hosted network supported: no? How to setup a hotspot in Windows 10</title>
         <author>
