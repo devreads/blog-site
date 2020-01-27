@@ -13,6 +13,10 @@
 </image:image>
 </url>
 <url>
+<loc>https://devreads.xyz/about-us/</loc>
+<lastmod>2020-01-27T10:36:43+05:30</lastmod>
+</url>
+<url>
 <loc>https://devreads.xyz/ant-to-maven-conversion-the-painless-method/</loc>
 <lastmod>2019-07-19T23:41:43+05:30</lastmod>
 <image:image>
@@ -59,6 +63,10 @@
 <image:loc>https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=145115&amp;theme=light</image:loc>
 <image:title><![CDATA[Glide - Create mobile apps from Google Sheets | Product Hunt Embed]]></image:title>
 </image:image>
+</url>
+<url>
+<loc>https://devreads.xyz/contact-us/</loc>
+<lastmod>2020-01-27T10:37:46+05:30</lastmod>
 </url>
 <url>
 <loc>https://devreads.xyz/detailed-guide-to-build-and-publish-website-for-free/</loc>
@@ -229,7 +237,7 @@
 </image:image>
 </url>
 <url>
-<loc>https://devreads.xyz/test-post/</loc>
-<lastmod>2020-01-24T15:23:27+05:30</lastmod>
+<loc>https://devreads.xyz/privacy-policy/</loc>
+<lastmod>2020-01-27T10:38:35+05:30</lastmod>
 </url>
 </urlset>
