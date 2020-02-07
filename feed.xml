@@ -3,7 +3,7 @@
     <title>Dev Reads</title>
     <link href="https://devreads.xyz/feed.xml" rel="self" />
     <link href="https://devreads.xyz" />
-    <updated>2020-01-28T11:29:59+05:30</updated>
+    <updated>2020-02-07T11:23:20+05:30</updated>
     <author>
         <name>DevReads Team</name>
     </author>
@@ -17,17 +17,17 @@
         <link href="https://devreads.xyz/what-to-consider-before-buying-designing-a-fraud-detection-system/"/>
         <id>https://devreads.xyz/what-to-consider-before-buying-designing-a-fraud-detection-system/</id>
 
-        <updated>2020-01-27T14:46:43+05:30</updated>
+        <updated>2020-02-07T11:21:16+05:30</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://devreads.xyz/media/posts/15/Capture5.PNG" alt="" />
+                        <img src="https://devreads.xyz/media/posts/15/Capture5-xl.webp" alt="" />
                     <p>As payments are increasingly executed using mobile devices, the infrastructure is changing. As always, a multitude of banking channels, financial services providers, payment processors, and payment networks are jockeying for position in a highly competitive ecosystem. Whether you are designing a fraud detection system or evaluating currently available systems in the market, read this article to discover the important aspects before your big decision.</p>
 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://devreads.xyz/media/posts/15/Capture5.PNG" alt="" />
+                    <img src="https://devreads.xyz/media/posts/15/Capture5-xl.webp" alt="" />
                 <p>As payments are increasingly executed using mobile devices, the infrastructure is changing. As always, a multitude of banking channels, financial services providers, payment processors, and payment networks are jockeying for position in a highly competitive ecosystem. Whether you are designing a fraud detection system or evaluating currently available systems in the market, read this article to discover the important aspects before your big decision.</p>
 
 <p>Network participants must adapt to an increasingly wide variety of payment mechanisms, devices, and types. Not long ago, nearly all payments originated from a relatively small number of point-of-sale terminals. Now payment processors must efficiently handle requests from billions of mobile devices worldwide. These transactions must traverse a complex payment processing network at near real-time speeds.</p>
@@ -73,17 +73,17 @@
         <link href="https://devreads.xyz/hosted-network-supported-no-how-to-setup-a-hotspot-in-windows-10/"/>
         <id>https://devreads.xyz/hosted-network-supported-no-how-to-setup-a-hotspot-in-windows-10/</id>
 
-        <updated>2020-01-27T11:58:43+05:30</updated>
+        <updated>2020-02-07T11:22:30+05:30</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://devreads.xyz/media/posts/10/Copy-of-Copy-of-https___devreads.xyz.png" alt="" />
+                        <img src="https://devreads.xyz/media/posts/10/Copy-of-Copy-of-https___devreads.xyz-xl.webp" alt="" />
                     <p>Have you tried to start a hotspot in Windows 10, so your mobile phone can use the internet connection of the PC and failed? This article shows how to <br>fix the hotspot not starting issue and related problems that Windows users have commonly encountered.</p>
 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://devreads.xyz/media/posts/10/Copy-of-Copy-of-https___devreads.xyz.png" alt="" />
+                    <img src="https://devreads.xyz/media/posts/10/Copy-of-Copy-of-https___devreads.xyz-xl.webp" alt="" />
                 <p>Have you tried to start a hotspot in Windows 10, so your mobile phone can use the internet connection of the PC and failed? This article shows how to <br>fix the hotspot not starting issue and related problems that Windows users have commonly encountered.</p>
 
 <p><strong>Check internet connection in PC</strong></p>
