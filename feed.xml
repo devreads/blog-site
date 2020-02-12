@@ -3,12 +3,69 @@
     <title>Dev Reads</title>
     <link href="https://devreads.xyz/feed.xml" rel="self" />
     <link href="https://devreads.xyz" />
-    <updated>2020-02-07T11:28:04+05:30</updated>
+    <updated>2020-02-12T17:38:39+05:30</updated>
     <author>
         <name>DevReads Team</name>
     </author>
     <id>https://devreads.xyz</id>
 
+    <entry>
+        <title>Best no code app builders in 2020</title>
+        <author>
+            <name>DevReads Team</name>
+        </author>
+        <link href="https://devreads.xyz/best-no-code-app-builders-in-2020/"/>
+        <id>https://devreads.xyz/best-no-code-app-builders-in-2020/</id>
+
+        <updated>2020-02-12T17:38:31+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://devreads.xyz/media/posts/16/5d6bfbd2b15033af5d032fff_Using-Glide-Builder.gif" alt="" />
+                    We are going to list 7 of the best app builders out there in 2020 for the people who don't want to get their hands dirty with coding. If you are looking for the best app building software or app maker,there is good news that&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://devreads.xyz/media/posts/16/5d6bfbd2b15033af5d032fff_Using-Glide-Builder.gif" alt="" />
+                <p id="mcetoc_1e0skdhcf8">We are going to list 7 of the best app builders out there in 2020 for the people who don't want to get their hands dirty with coding. If you are looking for the best app building software or app maker,there is good news that it's easier than ever to create a mobile app without any coding knowledge or experience.<br><br>Whether it's for your personal needs, your company, blog or just experimental side project, these app creation software are easy to operate and get things done fater. Let's have a look.</p>
+<h4 id="mcetoc_1e0sikcoc7">Glide</h4>
+<p><img class="post__image" src="https://devreads.xyz/media/posts/16/5d6bfbd2b15033af5d032fff_Using-Glide-Builder.gif" alt="" width="1414" height="1095"></p>
+<p>Every spreadsheet is an amazing app waiting to happen. Pick a Google Sheet and Glide assembles a polished, data-driven mobile app that you can share with a link and publish to app stores if you desire. If you haven't read already,<a href="https://devreads.xyz/best-free-app-builder-in-2019/"> here is our detailed guide aboud the Glideapp platform</a>.</p>
+<p> </p>
+<a href="https://www.glideapps.com/?devreads" target="_blank" rel="noopener noreferrer">https://www.glideapps.com</a>
+<h4 id="mcetoc_1e0sik68a6">Thunkable</h4>
+<p><img class="post__image" src="https://devreads.xyz/media/posts/16/thunkable.gif" alt="" width="1024" height="537"></p>
+<p>Thunkable is a native app builder for anybody and everyone who wants to build apps — from the non-developer to the highly skilled developer who wants to do do something quicker and easier.</p>
+<p><a href="http://thunkable.com/?devreads" target="_blank" rel="noopener noreferrer">http://thunkable.com</a></p>
+<h4 id="mcetoc_1e0sik0p75">Shoutem</h4>
+<p><img class="post__image" src="https://devreads.xyz/media/posts/16/shoutem.gif" alt="" width="600" height="338"></p>
+<p>Shoutem provides a number of strong features, allowing you to create a well- rounded, category-specific app.</p>
+<p> </p>
+<a href="http://www.shoutem.com/?devreads" target="_blank" rel="noopener noreferrer">http://www.shoutem.com   </a>
+<h4 id="mcetoc_1e0sihkl84">BuildFire</h4>
+<p><img class="post__image" src="https://devreads.xyz/media/posts/16/buildfire.gif" alt="" width="896" height="503"></p>
+<p>BuildFire features a fast, easy-to-use app-building tool that simplifies the app-making process.</p>
+<p> </p>
+<a href="https://buildfire.com/?devreads" target="_blank" rel="noopener noreferrer">https://buildfire.com </a>
+<h4 id="mcetoc_1e0siheuf3">AppSheet</h4>
+<p><img class="post__image" src="https://devreads.xyz/media/posts/16/appsheet.gif" alt="" width="1908" height="1024"></p>
+<p>AppSheet gives the non-developer the power to create powerful mobile apps instantly for both OS and Android.</p>
+<p> </p>
+<a href="https://www.appsheet.com/?devreads" target="_blank" rel="noopener noreferrer">https://www.appsheet.com</a>
+<h4 id="mcetoc_1e0sih9il2">Bubble</h4>
+<p><img class="post__image" src="https://devreads.xyz/media/posts/16/map.gif" alt="" width="700" height="472"></p>
+<p>Bubble lets you build websites without code, visually.</p>
+<p> </p>
+<a href="https://bubble.io/?devreads" target="_blank" rel="noopener noreferrer">https://bubble.io </a>
+<h4 id="mcetoc_1e0sih26f1">Webflow</h4>
+<p><img class="post__image" src="https://devreads.xyz/media/posts/16/webflow.gif" alt="" width="600" height="338"></p>
+<p>Webflow is one of the most powerful, customisable visual website builders there is. It was built to empower designers and entrepreneurs to create really powerful dynamic sites without having to learn how to code. It certainly has one of the more steeper learning curves but don't let that put you off.<br><br>If you're frustrated by the limitations of typical drag and drop website builders then this might be the very tool you are looking for. The level of design customisation is second to none and certainly geared towards users with a flair for design. Webflow provides a ton of carefully crafted how to videos to get you up to speed and they are pretty funny too! Webflow offers a very generous free tier to get you started.</p>
+<p> </p>
+<a href="https://webflow.com/?devreads" target="_blank" rel="noopener noreferrer">https://webflow.com/ </a>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>What to consider before buying / designing a fraud detection system?</title>
         <author>
@@ -613,94 +670,6 @@
 </ol>
 <p>Did you see how awesome the Spring Boot and Zuul is, that we can configure an API-Gateway application with just one annotation and couple of configuration entries.</p>
 <p>Next article of this series: <a href="https://devreads.xyz/implement-rate-limiting-for-api-gateways-with-spring-boot-zuul/" title="Implement rate limiting for API Gateways with Spring boot + Zuul">Implement rate limiting for API Gateways with Spring boot + Zuul</a></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Ant to maven conversion - The painless method</title>
-        <author>
-            <name>DevReads Team</name>
-        </author>
-        <link href="https://devreads.xyz/ant-to-maven-conversion-the-painless-method/"/>
-        <id>https://devreads.xyz/ant-to-maven-conversion-the-painless-method/</id>
-
-        <updated>2019-07-19T23:41:43+05:30</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://devreads.xyz/media/posts/1/cover-xl.jpg" alt="Senior person with a computer" />
-                    <p>If you've ever come across a situation to convert your grandfathers' java project  (which he used to build with ant) to maven, you know the pain. Maybe you are reading this because its time to do that. So, here is a definitive guide to doing that without getting lost in the dependency hell (RIP grandpa)</p>
-
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://devreads.xyz/media/posts/1/cover-xl.jpg" alt="Senior person with a computer" />
-                <p>If you've ever come across a situation to convert your grandfathers' java project  (which he used to build with ant) to maven, you know the pain. Maybe you are reading this because its time to do that. So, here is a definitive guide to doing that without getting lost in the dependency hell (RIP grandpa)</p>
-
-<h2 id="mcetoc_1df6r7mjd0">Create the directory structure</h2>
-<p>Execute the following commands in order to create the standard <a href="https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html" title="maven directory structure" target="_blank" rel="noopener noreferrer">maven directory structure</a>.</p>
-<h5 id="mcetoc_1df6r7mjd1"><strong>for web apps</strong></h5>
-<pre><code class="language-bash">mvn archetype:generate -DgroupId={project-packaging} \
--DartifactId={project-name} \
--DarchetypeArtifactId=maven-archetype-webapp \
--DinteractiveMode=false
-</code></pre>
-<h5 id="mcetoc_1df6ra8us6"><strong>for standalone apps</strong></h5>
-<pre><code class="language-bash">mvn archetype:generate -DarchetypeGroupId={project-packaging} \
- -DarchetypeArtifactId=={project-name} \
- -DarchetypeVersion=1.4<br></code></pre>
-<h2 id="mcetoc_1df6r7mjd3">Declare dependencies</h2>
-<ol>
-<li>
-<p>Declare the <code>groupId</code>, <code>arifactId</code> and <code>version</code> for the project</p>
-<pre><code class="language-xml">&lt;project&gt;
- &lt;modelVersion&gt; 4.0.0 &lt;/modelVersion&gt;
- &lt;groupId&gt; com.mycompany.app &lt;/groupId&gt;
- &lt;artifactId&gt; my-app &lt;/artifactId&gt;
- &lt;version&gt; 1.0.1 &lt;/version&gt;
-&lt;/project&gt;
-</code></pre>
-</li>
-<li>
-<p>Find the dependencies for each jar file linked to the project.</p>
-<ul>
-<li><strong>Jars having pom.xml files inside</strong> - Extract the <!--code>groupId</code>, <code>arifactId</code> and <code>version</code--> from the pom file.</li>
-<li><strong>Jars not having a pom.xml file</strong> - Refer to the signature based artifact search method explained below.</li>
-<li><strong>Jars which cannot find using the above 2 methods</strong> - Install to your local maven repository or your companies artifact repository.</li>
-</ul>
-<pre><code class="language-bash">mvn install:install-file -Dfile=&lt;path-to-file&gt; -DgroupId=&lt;myGroup&gt; \
- -DartifactId=&lt;myArtifactId&gt; -Dversion=&lt;myVersion&gt; \
- -Dpackaging=jar
-</code></pre>
-</li>
-<li>
-<p>Execute <code>mvn clean package</code> to see whether pom has been declared correctly. You can compare the new build against the old build to verify the accuracy of the conversion.</p>
-</li>
-</ol>
-<h2 id="mcetoc_1df6r7mjd4">Signature-based artifact search</h2>
-<p>Now we have come into the best part.</p>
-<ol>
-<li>If you are on Windows, download the <strong><a href="https://support.microsoft.com/en-us/help/841290/availability-and-description-of-the-file-checksum-integrity-verifier-u" target="_blank" rel="noopener noreferrer">File Checksum Integrity Verifier utility</a></strong> from Microsoft site.</li>
-<li>Execute the following from command line to generate a <strong>SHA1</strong> signature for the jar file which we need to find.
-<h5 id="mcetoc_1df6bnrvb9">For a single jar file</h5>
-<pre><code class="language-bash">fciv commons-io-1.3.2.jar -sha1
-</code></pre>
-<figure class="post__image post__image" ><img src="https://devreads.xyz/media/posts/1//Capture.PNG" alt="checksum generation with fciv tool" width="524" height="131">
-<figcaption >checksum generation using FCIV tool</figcaption>
-</figure>
-<h5 id="mcetoc_1df6r7mjd5">For a directory of jars</h5>
-<pre><code class="language-bash">fciv D:\\path\\to\\jars -type *.jar -sha1
-</code></pre>
-</li>
-<li>Go to <a href="https://repository.sonatype.org/" title="Nexus repository manager" target="_blank" rel="noopener noreferrer">Nexus repository manager</a> and click <strong><strong>Advanced search<br></strong></strong>
-<figure class="post__image post__image" ><img src="https://devreads.xyz/media/posts/1//Capture2.PNG" alt="Nexus repository manager" width="1366" height="621">
-<figcaption >Search  Nexus repository using the generated checksum value</figcaption>
-</figure>
-</li>
-<li>Find the matching artifact details using the SHA1 hash obtained from the above step.</li>
-</ol>
-<p>Now you should be able to find all the dependency information refered from old Ant project by this way. So go ahead and get the hands dirty. </p>
-<p><em><strong>ps</strong>: I will write another article to show how this whole process can be automated.</em></p>
             ]]>
         </content>
     </entry>
