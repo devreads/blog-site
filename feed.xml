@@ -3,12 +3,52 @@
     <title>Dev Reads</title>
     <link href="https://devreads.xyz/feed.xml" rel="self" />
     <link href="https://devreads.xyz" />
-    <updated>2020-02-14T15:23:15+05:30</updated>
+    <updated>2020-02-17T16:50:48+05:30</updated>
     <author>
         <name>DevReads Team</name>
     </author>
     <id>https://devreads.xyz</id>
 
+    <entry>
+        <title>3 Methods of converting a List to Array in Java</title>
+        <author>
+            <name>DevReads Team</name>
+        </author>
+        <link href="https://devreads.xyz/3-methods-of-converting-a-list-to-array-in-java/"/>
+        <id>https://devreads.xyz/3-methods-of-converting-a-list-to-array-in-java/</id>
+
+        <updated>2020-02-17T16:50:38+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://devreads.xyz/media/posts/18/convert_a_list_to_array_in_java.png" alt="" />
+                    It is often required to convert a java List to an Array or wise versa. In this article we discuss few methods of doing the List to Array conversion. Java List interface provides methods to interact with collection of objects which duplicates are allowed. java.util.list&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://devreads.xyz/media/posts/18/convert_a_list_to_array_in_java.png" alt="" />
+                <p>It is often required to convert a java List to an Array or wise versa. In this article we discuss few methods of doing the List to Array conversion.</p>
+<p>Java List interface provides methods to interact with collection of objects which duplicates are allowed. java.util.list is a child interface of the java.util.collection interface where java.util.list is implemented in ArrayList, LinkedList, Vector and Stack classes. List interface allows adding, removing, getting and setting values in List objects. Our main focus here is how to convert list to array in java. Below are few example methods of converting a list to array.</p>
+<h4 id="mcetoc_1e19b7ft30">1. List interface's built in method toArray() for converting List to Array of String</h4>
+<p>
+<script src="https://gist.github.com/devreads/badae36e0ae43be57e33044ffe6ca78f.js">// <![CDATA[
+<br>
+// ]]></script>
+</p>
+<h4 id="mcetoc_1e19ds9na4"> </h4>
+<h4 id="mcetoc_1e19c22041">2. Stream API (Since Java 8)</h4>
+<p>With the introduction of streams in java 8, it is more than easier to convert List to array in java. First it has to stream the list with List.stream() method then Stream.toArray() can be used to return an Array object containing items from the original list.</p>
+<h4 id="mcetoc_1e19dn4fb3">
+<script src="https://gist.github.com/devreads/570e1f951ed7a0f3b3fd0f648c080a64.js"></script>
+</h4>
+<h4 id="mcetoc_1e19dsdpb6"> </h4>
+<h4 id="mcetoc_1e19dsdhl5">3. Using Guava library</h4>
+<p>Guava library provides methods for converting a List to Array using Iterables class.</p>
+<script src="https://gist.github.com/devreads/1cd8347cc40a0a19b7fcb31475ff85d5.js"></script>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Best no code app builders in 2020</title>
         <author>
@@ -606,70 +646,6 @@
 <p class="read-more"><a href="http://angrytools.com/css-generator/" target="_blank" rel="noopener noreferrer">Goto Site</a></p>
 </div>
 </div>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>How to build an API-Gateway with Netflix Zuul + Spring Boot</title>
-        <author>
-            <name>DevReads Team</name>
-        </author>
-        <link href="https://devreads.xyz/how-to-build-an-api-gateway-with-netflix-zuul-spring-boot/"/>
-        <id>https://devreads.xyz/how-to-build-an-api-gateway-with-netflix-zuul-spring-boot/</id>
-
-        <updated>2019-07-19T23:41:09+05:30</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://devreads.xyz/media/posts/3/https___devreads.xyz.jpg" alt="" />
-                    <p>When you develop applications in microservice architecture, it is often required to route API requests to the respective service(s). Doing this with a general purpose load balancer like nginx or apache was the practice before. But it will take some control away from the application. Also it is important to remember that, maintaining an API-Gateway service brings you more benefits other than load balancing like below.</p>
-
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://devreads.xyz/media/posts/3/https___devreads.xyz.jpg" alt="" />
-                <p>When you develop applications in microservice architecture, it is often required to route API requests to the respective service(s). Doing this with a general purpose load balancer like nginx or apache was the practice before. But it will take some control away from the application. Also it is important to remember that, maintaining an API-Gateway service brings you more benefits other than load balancing like below.</p>
-
-<ul>
-<li>Authentication and Security</li>
-<li>Monitoring</li>
-<li>Dynamic Routing</li>
-<li>Static Response handling</li>
-<li>Rate limiting</li>
-</ul>
-<p>You can implement all the above features with Spring Boot + Zuul, but this article will only cover <em>how to create your first API-Gateway application</em>. Let's start with an example.</p>
-<p><img class="post__image--center" src="https://devreads.xyz/media/posts/3/microservice.png" alt="Microservice architecture" width="1355" height="375"></p>
-<p>Here we have multiple services executing their own business logic, so it is up to the <strong>Gateway</strong> to send requests to the correct microservice. This <strong>Gateway</strong> is a layer 7 load balancer which routes requests to the correct microservice based on the information presented in the request url.</p>
-<blockquote>
-<p>Layer 4 load balancer bases the load-balancing decision on the source and destination IP addresses and ports recorded in the packet header, without considering the contents of the packet.</p>
-<p>Layer 7 load balancers base their routing decisions on various characteristics of the HTTP header and on the actual contents of the message, such as the URL, the type of data (text, video, graphics), or information in a cookie.</p>
-<p>-- <a href="https://www.nginx.com/resources/glossary/layer-4-load-balancing/" title="Layer 4 vs Layer 7 load balancing" target="_blank" rel="noopener noreferrer">Nginx</a></p>
-</blockquote>
-<h2 id="mcetoc_1dfnd20si0">Netflix Zuul to the rescue </h2>
-<p><a href="https://github.com/Netflix/zuul/wiki" target="_blank" rel="noopener noreferrer">Zuul </a>is a library developed by Netflix, that provides dynamic routing, monitoring, resiliency, security, and more amazing features. Best thing is Spring Boot has already bundled Zuul with their Spring Cloud dependency. Lets see how we can implement our own API Gateway with <strong>Spring Cloud + Zuul</strong>.</p>
-<ol>
-<li>Generate the Spring Boot project. Go to <a href="https://start.spring.io/" target="_blank" rel="noopener noreferrer" title="Spring Initializer page">Spring Initializer page</a> and add Zuul as a dependency.</li>
-<li style="list-style: none;"><img class="post__image--center" src="https://devreads.xyz/media/posts/3/spring.png" alt="Generating Spring Boot project" width="1156" height="688"></li>
-</ol>
-<ol start="2">
-<li>Download and extract the project.</li>
-<li>You just need to add <code>@EnableZuulProxy</code> annotation to the Main class to make this project a Zuul proxy server. Spring Boot will auto configure everything based on this annotation.</li>
-<li style="list-style: none;">
-<script src="https://gist.github.com/devreads/58a71a9bfd672dadc4fdd97113f0c01d.js"></script>
-</li>
-</ol>
-<ol start="4">
-<li>Now you can configure routing (i.e. Request paths and respective service urls) in the application.properties file.</li>
-<li style="list-style: none;">
-<script src="https://gist.github.com/devreads/79b4ad3b8d3d1891243fa8c5d392d393.js"></script>
-</li>
-</ol>
-<ol start="5">
-<li>Execute <code>mvn clean install</code> to build the project. Then run it using <code>java –jar &lt;JARFILE&gt;</code>. You will see the API-Gateway is starting to listen on port 8080.</li>
-<li>Send two requests to <code>http://localhost:8080/api/service_1/</code> and <code>http://localhost:8080/api/service_2/</code>, you will see requests are routed to service_1 and service_2 respectively as we have configured on application.properties file.</li>
-</ol>
-<p>Did you see how awesome the Spring Boot and Zuul is, that we can configure an API-Gateway application with just one annotation and couple of configuration entries.</p>
-<p>Next article of this series: <a href="https://devreads.xyz/implement-rate-limiting-for-api-gateways-with-spring-boot-zuul/" title="Implement rate limiting for API Gateways with Spring boot + Zuul">Implement rate limiting for API Gateways with Spring boot + Zuul</a></p>
             ]]>
         </content>
     </entry>
