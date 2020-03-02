@@ -1,0 +1,103 @@
+body {
+  background: linear-gradient(to right, rgb(203, 136, 255), #00ffff);
+  font-family: 'Montserrat';
+  height: 100vh;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+  body input[type=range] {
+    width: 100px; }
+  body h1 {
+    text-align: center;
+    color: darkslategrey;
+    font-size: 29px;
+    margin-top: 0; }
+  body h2 {
+    font-size: 15px; }
+  body .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw; }
+    body .container #main {
+      width: 300px;
+      padding: 20px;
+      margin-bottom: 20px;
+      background-color: white;
+      border-radius: 25px;
+      transition-duration: 0.6s;
+      animation: 0.6s ease-out 0s 1 slideInFromTop; }
+      body .container #main .body {
+        display: flex; }
+        body .container #main .body .color {
+          width: 50%;
+          text-align: center; }
+      body .container #main #direction-input {
+        text-align: center;
+        margin-bottom: 0; }
+      body .container #main .directions-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-bottom: 0; }
+        body .container #main .directions-container .direction {
+          cursor: pointer;
+          border: 1px solid gray;
+          border-radius: 5px; }
+        body .container #main .directions-container .direction:hover {
+          background-color: #E3EAFF;
+          transition: 0.2s; }
+      body .container #main #alert {
+        display: none;
+        text-align: center; }
+      body .container #main #generate {
+        font-family: 'Montserrat';
+        font-size: 25px;
+        padding: 20px;
+        padding-top: 0px;
+        width: 100%;
+        border-radius: 20px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        cursor: pointer;
+        height: 72px;
+        overflow: hidden;
+        text-align: center; }
+        body .container #main #generate #generate-text {
+          margin: 0;
+          transition-duration: 0.2s;
+          z-index: 1;
+          position: absolute;
+          margin-left: 10px;
+          transform: translateY(17px); }
+        body .container #main #generate #clipboard-alert {
+          margin: 0;
+          transition-duration: 0.2s;
+          font-size: 19px;
+          z-index: 0;
+          position: relative;
+          transform: translateY(70px); }
+      body .container #main #generate:hover #generate-text {
+        transform: translateY(-30px);
+        opacity: 0; }
+      body .container #main #generate:hover #clipboard-alert {
+        transform: translateY(10px); }
+      body .container #main #generate:hover {
+        background: linear-gradient(to left, #8fffb3 0%, #00b9ff 100%);
+        border: none;
+        color: white; }
+@keyframes slideInFromTop {
+  0% {
+    opacity: 0.6;
+    transform: translateY(-60px);
+    box-shadow: none; }
+  50% {
+    opacity: 0.8;
+    transform: translateY(20px); }
+  100% {
+    opacity: 1;
+    transform: translateX(0); } }
+
+/*# sourceMappingURL=main.css.map */
