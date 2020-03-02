@@ -14,6 +14,10 @@ body {
     margin-top: 0; }
   body h2 {
     font-size: 15px; }
+  body h4 {
+    text-align: center;
+    color: lategrey;
+    font-size: 18px;}
   body .container {
     display: flex;
     justify-content: center;
@@ -65,23 +69,20 @@ body {
         height: 72px;
         overflow: hidden;
         text-align: center; }
-        body .container #main #generate #generate-text {
-          margin: 0;
-          transition-duration: 0.2s;
-          z-index: 1;
-          position: absolute;
-          margin-left: 10px;
-          transform: translateY(17px); }
+		#css-code { 
+		  text-align: center;
+          position: relative !important;
+		  font-size: 12px;
+		  background-color: #e4e4e4;
+		  padding: 5px;
+		  border-radius: 5px;}
         body .container #main #generate #clipboard-alert {
           margin: 0;
           transition-duration: 0.2s;
           font-size: 19px;
           z-index: 0;
           position: relative;
-          transform: translateY(70px); }
-      body .container #main #generate:hover #generate-text {
-        transform: translateY(-30px);
-        opacity: 0; }
+		  transform: translateY(10px);}
       body .container #main #generate:hover #clipboard-alert {
         transform: translateY(10px); }
       body .container #main #generate:hover {
