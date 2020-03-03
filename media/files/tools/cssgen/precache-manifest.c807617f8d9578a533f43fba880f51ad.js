@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "172a13e2247e06195a6339d0eac9bb9d",
+    "revision": "b0167de5577afc56fd8aace34bcd1139",
     "url": "/media/files/tools/cssgen/index.html"
   },
   {
-    "revision": "dcbe95127fc24415b6bd",
+    "revision": "47acb5779c98a7a4b82b",
     "url": "/media/files/tools/cssgen/static/css/main.7e78e791.chunk.css"
   },
   {
-    "revision": "38ba8247956c49c05162",
-    "url": "/media/files/tools/cssgen/static/js/2.17e28c0d.chunk.js"
+    "revision": "5716a0850abe84504c78",
+    "url": "/media/files/tools/cssgen/static/js/2.fdfc2c76.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/media/files/tools/cssgen/static/js/2.17e28c0d.chunk.js.LICENSE"
+    "url": "/media/files/tools/cssgen/static/js/2.fdfc2c76.chunk.js.LICENSE"
   },
   {
-    "revision": "dcbe95127fc24415b6bd",
-    "url": "/media/files/tools/cssgen/static/js/main.6be45780.chunk.js"
+    "revision": "47acb5779c98a7a4b82b",
+    "url": "/media/files/tools/cssgen/static/js/main.0d8ba1fb.chunk.js"
   },
   {
     "revision": "a663c673f723388b9557",

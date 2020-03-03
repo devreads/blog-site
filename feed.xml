@@ -3,7 +3,7 @@
     <title>Dev Reads</title>
     <link href="https://devreads.xyz/feed.xml" rel="self" />
     <link href="https://devreads.xyz" />
-    <updated>2020-03-02T17:33:57+05:30</updated>
+    <updated>2020-03-03T10:57:38+05:30</updated>
     <author>
         <name>DevReads Team</name>
     </author>
@@ -575,14 +575,14 @@
         </content>
     </entry>
     <entry>
-        <title>5 Most Useful Online CSS Code Generators</title>
+        <title>5 + 1 Most Useful Online CSS Code Generators</title>
         <author>
             <name>DevReads Team</name>
         </author>
         <link href="https://devreads.xyz/5-most-useful-online-css-code-generators/"/>
         <id>https://devreads.xyz/5-most-useful-online-css-code-generators/</id>
 
-        <updated>2019-08-03T00:04:15+05:30</updated>
+        <updated>2020-03-03T10:26:39+05:30</updated>
             <summary>
                 <![CDATA[
                         <img src="https://devreads.xyz/media/posts/4/https___devreads.xyz.jpg" alt="" />
@@ -648,6 +648,17 @@
 <h2 id="mcetoc_1dfr3vu331">AngryTools CSS Generator</h2>
 <p>There are several types of properties available for styling HTML elements. Here this code generator tool is for create source code for top most useful CSS styling.</p>
 <p class="read-more"><a href="http://angrytools.com/css-generator/" target="_blank" rel="noopener noreferrer">Goto Site</a></p>
+</div>
+</div>
+<div class="blog-card">
+<div class="meta"><span class="number">6</span>
+<div class="photo" style="background-image: url('https://devreads.xyz/media/posts/4/Capture.PNG');"> </div>
+</div>
+<div class="description">
+<h1 id="mcetoc_1dfr3vu330">[BONUS] DevReads</h1>
+<h2 id="mcetoc_1dfr3vu331">DevReads CSS Generator</h2>
+<p>This is our own CSS generator which currently supports 10+ CSS properties. It's designed with easy to use user interface and rich user experience.</p>
+<p class="read-more"><a href="https://devreads.xyz/media/files/tools/cssgen/" target="_blank" rel="noopener noreferrer">Goto Site</a></p>
 </div>
 </div>
             ]]>
