@@ -3,12 +3,98 @@
     <title>Dev Reads</title>
     <link href="https://devreads.xyz/feed.xml" rel="self" />
     <link href="https://devreads.xyz" />
-    <updated>2020-12-14T03:31:29+05:30</updated>
+    <updated>2020-12-18T22:05:05+05:30</updated>
     <author>
         <name>DevReads Team</name>
     </author>
     <id>https://devreads.xyz</id>
 
+    <entry>
+        <title>Hosted network supported: no? How to setup a hotspot in Windows 10</title>
+        <author>
+            <name>DevReads Team</name>
+        </author>
+        <link href="https://devreads.xyz/hosted-network-supported-no-how-to-setup-a-hotspot-in-windows-10/"/>
+        <id>https://devreads.xyz/hosted-network-supported-no-how-to-setup-a-hotspot-in-windows-10/</id>
+
+        <updated>2020-12-18T22:04:30+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://devreads.xyz/media/posts/10/https___devreads.xyz.png" alt="Hosted network supported: no" />
+                    <p>Have you tried to start a hotspot in Windows 10, so your mobile phone can use the internet connection of the PC and failed? This article shows how to <br>fix the hotspot not starting issue and related problems that Windows users have commonly encountered.</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://devreads.xyz/media/posts/10/https___devreads.xyz.png" alt="Hosted network supported: no" />
+                <p>Have you tried to start a hotspot in Windows 10, so your mobile phone can use the internet connection of the PC and failed? This article shows how to <br>fix the hotspot not starting issue and related problems that Windows users have commonly encountered.</p>
+
+<h2 id="mcetoc_1e6p8bpla7">What is a hosted network?</h2>
+<p>Hosted network feature is first introduced with Windows 7. It allows the user to create a virtual wireless hotspot (like in your phone) without any additional software. But it is required to have a supported wireless adapter to enable this feature. In some cases, wireless adapter is supported but required drivers are not installed. Either case, follow our guide below to resolve this error.</p>
+<h5 id="mcetoc_1e6p82nsr5"><strong>Check internet connection in PC</strong></h5>
+<p>If you are using a mobile broadband dongle which usually connected to the USB port, first make sure it is connected and internet is working properly in PC.</p>
+<h5 id="mcetoc_1e6p82si26"><br><strong>Check if your wireless adapter supports hosted networks. </strong></h5>
+<p><br>In some cases your wireless adapter might not have the support for hosted network, and that can cause this problem to appear. To check if your adapter supports hosted networks, do the following:</p>
+<ol>
+<li>Start Command Prompt as administrator.</li>
+<li>When Command Prompt opens, execute below
+<pre>netsh wlan show driver | findstr Hosted</pre>
+</li>
+<li>Check the value for "Hosted network supported" option. Hosted network support shows no? It means your network adapter doesn’t support this feature.</li>
+</ol>
+<h2 id="mcetoc_1dkiivbrd1">How to fix hosted network not supported?</h2>
+<p>Hosted network not supported means, your wireless driver is not supporting that feature or related drivers are not installed. If its the later case, you can resolve it by<br>updating wireless adapter drivers.</p>
+<figure class="post__image post__image--center" ><img src="https://devreads.xyz/media/posts/10/hosted-network-could-not-be-started-driver-1.jpg" alt="Update driver from device manager" width="399" height="343">
+<figcaption >Update driver from device manager </figcaption>
+</figure>
+<h2 id="mcetoc_1dkij2bn43">What to do if hosted network is not supported?</h2>
+<p>You can try the "No Wifi" app described below or buy an external USB wifi adapter with hosted network support. These TP-Link and Edimax USB wifi adapters are the best we have came across on Amazon. (<em>Note: As an Amazon Associate we may earn a small commission from these product recomendations.</em>)</p>
+<script type="text/javascript">// <![CDATA[
+amzn_assoc_tracking_id = "devreads-20";
+amzn_assoc_ad_mode = "manual";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_design = "enhanced_links";
+amzn_assoc_asins = "B008IFXQFU";
+amzn_assoc_placement = "adunit";
+amzn_assoc_linkid = "191f74ac4cead41a4ccadeefe173beb0";
+// ]]></script>
+<script type="text/javascript">// <![CDATA[
+amzn_assoc_tracking_id = "devreads-20";
+amzn_assoc_ad_mode = "manual";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_design = "enhanced_links";
+amzn_assoc_asins = "B003MTTJOY";
+amzn_assoc_placement = "adunit";
+amzn_assoc_linkid = "124793482df4fc8990728cb7fca371c1";
+// ]]></script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
+<p>If the "Hosted network supported" shows no even after the driver update, you can use "<strong>No wifi</strong>" app to create a mobile hotspot. Install "<strong>No wifi</strong>" app from Microsoft store (<a href="https://www.microsoft.com/store/productId/9NK0DST7HZX5" target="_blank" rel="noopener noreferrer">https://www.microsoft.com/store/productId/9NK0DST7HZX5</a>) and run. This app uses an alternative method to setup wifi hotspots which is not used by the builtin hotspot.</p>
+<p><img class="post__image--center" src="https://devreads.xyz/media/posts/10/Capture.PNG" alt="" width="1259" height="448"></p>
+<figure class="post__video"><iframe width="560" height="314" src="https://www.youtube.com/embed/9SQwMPd5Fpc" allowfullscreen="allowfullscreen" ></iframe></figure>
+<h2 id="mcetoc_1dkij9te48">Hosted network, no internet access in windows 10?</h2>
+<p>Wifi hotspot is setup but no internet yet? Or mobile phone is failed to obtain an IP address? Then follow the steps below to check whether the internet sharing is correctly linked with the hotspot adapter.</p>
+<ol>
+<li>Open Mobile hotspot settings (Settings &gt; Network &amp; Internet &gt; Mobile hotspot) Turn on mobile hotspot</li>
+<li>Under "Related Settings", click Change adapter options</li>
+<li>Take note of which adapter is connected to the internet and which adapter is your mobile hotspot (typically named "<strong>Local Area Connection* [#]</strong>")</li>
+<li>Right click the adapter that is connected to the internet and click <strong>Properties</strong></li>
+<li>Go to the Sharing tab</li>
+<li>Uncheck "<strong>Allow other network users to connect through this computer's Internet connection</strong>". If it is already unchecked, skip this step, Click OK</li>
+<li>Again, open Properties &gt; Sharing for the same adapter.</li>
+<li>Check "<strong>Allow other network users to connect through this computer's Internet connection</strong>"</li>
+<li>If you get a popup that says "Internet Connection Sharing is currently enabled...", click OK.</li>
+<li>Under "Home networking connection:", select the mobile hotspot adapter, click OK</li>
+</ol>
+<figure class="post__video"><iframe width="560" height="314" src="https://www.youtube.com/embed/3q9jrR2X6UY" allowfullscreen="allowfullscreen" ></iframe></figure>
+<p>We hope this guide will resolve your hosted network not supported issue. </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>3 Methods of converting a List to Array in Java</title>
         <author>
@@ -103,67 +189,6 @@
 <p> </p>
 <a href="https://webflow.com/?devreads" target="_blank" rel="noopener noreferrer">https://webflow.com/ </a>
 <p> </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Hosted network supported: no? How to setup a hotspot in Windows 10</title>
-        <author>
-            <name>DevReads Team</name>
-        </author>
-        <link href="https://devreads.xyz/hosted-network-supported-no-how-to-setup-a-hotspot-in-windows-10/"/>
-        <id>https://devreads.xyz/hosted-network-supported-no-how-to-setup-a-hotspot-in-windows-10/</id>
-
-        <updated>2020-04-25T23:42:27+05:30</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://devreads.xyz/media/posts/10/https___devreads.xyz.png" alt="Hosted network supported: no" />
-                    <p>Have you tried to start a hotspot in Windows 10, so your mobile phone can use the internet connection of the PC and failed? This article shows how to <br>fix the hotspot not starting issue and related problems that Windows users have commonly encountered.</p>
-
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://devreads.xyz/media/posts/10/https___devreads.xyz.png" alt="Hosted network supported: no" />
-                <p>Have you tried to start a hotspot in Windows 10, so your mobile phone can use the internet connection of the PC and failed? This article shows how to <br>fix the hotspot not starting issue and related problems that Windows users have commonly encountered.</p>
-
-<h2 id="mcetoc_1e6p8bpla7">What is a hosted network?</h2>
-<p>Hosted network feature is first introduced with Windows 7. It allows the user to create a virtual wireless hotspot (like in your phone) without any additional software. But it is required to have a supported wireless adapter to enable this feature. In some cases, wireless adapter is supported but required drivers are not installed. Either case, follow our guide below to resolve this error.</p>
-<h5 id="mcetoc_1e6p82nsr5"><strong>Check internet connection in PC</strong></h5>
-<p>If you are using a mobile broadband dongle which usually connected to the USB port, first make sure it is connected and internet is working properly in PC.</p>
-<h5 id="mcetoc_1e6p82si26"><br><strong>Check if your wireless adapter supports hosted networks. </strong></h5>
-<p><br>In some cases your wireless adapter might not have the support for hosted network, and that can cause this problem to appear. To check if your adapter supports hosted networks, do the following:</p>
-<ol>
-<li>Start Command Prompt as administrator.</li>
-<li>When Command Prompt opens, execute below
-<pre>netsh wlan show driver | findstr Hosted</pre>
-</li>
-<li>Check the value for "Hosted network supported" option. Hosted network support shows no? It means your network adapter doesn’t support this feature.</li>
-</ol>
-<h2 id="mcetoc_1dkiivbrd1">How to fix hosted network not supported?</h2>
-<p>Hosted network not supported means, your wireless driver is not supporting that feature or related drivers are not installed. Either case, you can resolve it by<br>updating wireless adapter drivers.</p>
-<figure class="post__image post__image--center" ><img src="https://devreads.xyz/media/posts/10/hosted-network-could-not-be-started-driver-1.jpg" alt="Update driver from device manager" width="399" height="343">
-<figcaption >Update driver from device manager </figcaption>
-</figure>
-<h2 id="mcetoc_1dkij2bn43">What to do if hosted network is not supported?</h2>
-<p>If the "Hosted network supported" shows no even after the driver update, you can use "<strong>No wifi</strong>" app to create a mobile hotspot. Install "<strong>No wifi</strong>" app from Microsoft store (<a href="https://www.microsoft.com/store/productId/9NK0DST7HZX5" target="_blank" rel="noopener noreferrer">https://www.microsoft.com/store/productId/9NK0DST7HZX5</a>) and run. This app uses an alternative method to setup wifi hotspots which is not used by the builtin hotspot.</p>
-<p><img class="post__image--center" src="https://devreads.xyz/media/posts/10/Capture.PNG" alt="" width="1259" height="448"></p>
-<figure class="post__video"><iframe width="560" height="314" src="https://www.youtube.com/embed/9SQwMPd5Fpc" allowfullscreen="allowfullscreen" ></iframe></figure>
-<h2 id="mcetoc_1dkij9te48">Hosted network, no internet access in windows 10?</h2>
-<p>Wifi hotspot is setup but no internet yet? Or mobile phone is failed to obtain an IP address? Then follow the steps below to check whether the internet sharing is correctly linked with the hotspot adapter.</p>
-<ol>
-<li>Open Mobile hotspot settings (Settings &gt; Network &amp; Internet &gt; Mobile hotspot) Turn on mobile hotspot</li>
-<li>Under "Related Settings", click Change adapter options</li>
-<li>Take note of which adapter is connected to the internet and which adapter is your mobile hotspot (typically named "<strong>Local Area Connection* [#]</strong>")</li>
-<li>Right click the adapter that is connected to the internet and click <strong>Properties</strong></li>
-<li>Go to the Sharing tab</li>
-<li>Uncheck "<strong>Allow other network users to connect through this computer's Internet connection</strong>". If it is already unchecked, skip this step, Click OK</li>
-<li>Again, open Properties &gt; Sharing for the same adapter.</li>
-<li>Check "<strong>Allow other network users to connect through this computer's Internet connection</strong>"</li>
-<li>If you get a popup that says "Internet Connection Sharing is currently enabled...", click OK.</li>
-<li>Under "Home networking connection:", select the mobile hotspot adapter, click OK</li>
-</ol>
-<figure class="post__video"><iframe width="560" height="314" src="https://www.youtube.com/embed/3q9jrR2X6UY" allowfullscreen="allowfullscreen" ></iframe></figure>
             ]]>
         </content>
     </entry>
