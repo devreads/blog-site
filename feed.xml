@@ -3,7 +3,7 @@
     <title>Dev Reads</title>
     <link href="https://devreads.xyz/feed.xml" rel="self" />
     <link href="https://devreads.xyz" />
-    <updated>2020-12-18T22:19:58+05:30</updated>
+    <updated>2020-12-18T22:32:38+05:30</updated>
     <author>
         <name>DevReads Team</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://devreads.xyz/hosted-network-supported-no-how-to-setup-a-hotspot-in-windows-10/"/>
         <id>https://devreads.xyz/hosted-network-supported-no-how-to-setup-a-hotspot-in-windows-10/</id>
 
-        <updated>2020-12-18T22:04:30+05:30</updated>
+        <updated>2020-12-18T22:31:42+05:30</updated>
             <summary>
                 <![CDATA[
                         <img src="https://devreads.xyz/media/posts/10/https___devreads.xyz.png" alt="Hosted network supported: no" />
@@ -49,7 +49,7 @@
 <figcaption >Update driver from device manager </figcaption>
 </figure>
 <h2 id="mcetoc_1dkij2bn43">What to do if hosted network is not supported?</h2>
-<p>You can try the "No Wifi" app described below or buy an external USB wifi adapter with hosted network support. These TP-Link and Edimax USB wifi adapters are the best we have came across on Amazon. (<em>Note: As an Amazon Associate we may earn a small commission from these product recomendations.</em>)</p>
+<p>You can try the "No Wifi" app described below or buy an external USB wifi adapter with hosted network support. These TP-Link and Edimax USB wifi adapters are the best we have came across on Amazon. (<em>Note: As an Amazon Associate we may earn a small commission from these product recommendations.</em>)</p>
 <script type="text/javascript">// <![CDATA[
 amzn_assoc_tracking_id = "devreads-20";
 amzn_assoc_ad_mode = "manual";
@@ -57,10 +57,11 @@ amzn_assoc_ad_type = "smart";
 amzn_assoc_marketplace = "amazon";
 amzn_assoc_region = "US";
 amzn_assoc_design = "enhanced_links";
-amzn_assoc_asins = "B008IFXQFU";
+amzn_assoc_asins = "B003MTTJOY";
 amzn_assoc_placement = "adunit";
-amzn_assoc_linkid = "191f74ac4cead41a4ccadeefe173beb0";
+amzn_assoc_linkid = "2a11401ff7190a8a632a0e9cf63343c9";
 // ]]></script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
 <script type="text/javascript">// <![CDATA[
 amzn_assoc_tracking_id = "devreads-20";
 amzn_assoc_ad_mode = "manual";
@@ -92,6 +93,22 @@ amzn_assoc_linkid = "124793482df4fc8990728cb7fca371c1";
 </ol>
 <figure class="post__video"><iframe width="560" height="314" src="https://www.youtube.com/embed/3q9jrR2X6UY" allowfullscreen="allowfullscreen" ></iframe></figure>
 <p>We hope this guide will resolve your hosted network not supported issue. </p>
+<div class="alignleft">
+<script type="text/javascript">// <![CDATA[
+       	amzn_assoc_ad_type = "banner";
+	amzn_assoc_marketplace = "amazon";
+	amzn_assoc_region = "US";
+	amzn_assoc_placement = "assoc_banner_placement_default";
+	amzn_assoc_banner_type = "ez";
+	amzn_assoc_p = "13";
+	amzn_assoc_width = "468";
+	amzn_assoc_height = "60";
+	amzn_assoc_tracking_id = "devreads-20";
+	amzn_assoc_linkid = "38ffa3cc4edf8c81312b3cd9fd0de0cd";
+     
+// ]]></script>
+<script src="//z-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;Operation=GetScript&amp;ID=OneJS&amp;WS=1"></script>
+</div>
             ]]>
         </content>
     </entry>
