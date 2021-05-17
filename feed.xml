@@ -3,7 +3,7 @@
     <title>Dev Reads</title>
     <link href="https://devreads.xyz/feed.xml" rel="self" />
     <link href="https://devreads.xyz" />
-    <updated>2021-01-17T00:32:32+05:30</updated>
+    <updated>2021-05-18T00:33:08+05:30</updated>
     <author>
         <name>DevReads Team</name>
     </author>
@@ -144,7 +144,7 @@ amzn_assoc_linkid = "aaeeaa76304b9fd2a61514bb1fbddf22";
         <link href="https://devreads.xyz/hosted-network-supported-no-how-to-setup-a-hotspot-in-windows-10/"/>
         <id>https://devreads.xyz/hosted-network-supported-no-how-to-setup-a-hotspot-in-windows-10/</id>
 
-        <updated>2020-12-18T22:39:47+05:30</updated>
+        <updated>2021-05-18T00:32:51+05:30</updated>
             <summary>
                 <![CDATA[
                         <img src="https://devreads.xyz/media/posts/10/https___devreads.xyz.png" alt="Hosted network supported: no" />
@@ -221,18 +221,20 @@ amzn_assoc_linkid = "b2ebc6d1dc00f9f2878bcdd1d2583eef";
 <figure class="post__video"><iframe width="560" height="314" src="https://www.youtube.com/embed/3q9jrR2X6UY" allowfullscreen="allowfullscreen" ></iframe></figure>
 <p>We hope this guide will resolve your hosted network not supported issue. </p>
 <script type="text/javascript">// <![CDATA[
-amzn_assoc_ad_type = "banner";
-	amzn_assoc_marketplace = "amazon";
-	amzn_assoc_region = "US";
-	amzn_assoc_placement = "assoc_banner_placement_default";
-	amzn_assoc_banner_type = "ez";
-	amzn_assoc_p = "13";
-	amzn_assoc_width = "468";
-	amzn_assoc_height = "60";
-	amzn_assoc_tracking_id = "devreads-20";
-	amzn_assoc_linkid = "38ffa3cc4edf8c81312b3cd9fd0de0cd";
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "devreads-20";
+amzn_assoc_search_bar_position = "bottom";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Trending right now";
+amzn_assoc_default_search_phrase = "face shield";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "839bb919302b5682103072ec9991a945";
 // ]]></script>
-<script src="//z-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;Operation=GetScript&amp;ID=OneJS&amp;WS=1"></script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
             ]]>
         </content>
     </entry>
